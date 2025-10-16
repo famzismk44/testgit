@@ -3,7 +3,7 @@ name: Create terraform code
 on:
     push:
         branches:
-            - main
+            - featurebr
 
 jobs:
     build:
