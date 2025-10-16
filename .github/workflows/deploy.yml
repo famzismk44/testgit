@@ -16,7 +16,7 @@ jobs:
         - name: Az Login
           uses: Azure/login@v2.3.0
           with: 
-            creds: ${{SECRETS.CREDENTIALS}}
+            creds: ${{secrets.AZURE_CREDENTIALS}}
 
         - name: Setup Terraform Hashicorp
           uses: hashicorp/setup-terraform@v2.0.3
